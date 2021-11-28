@@ -47,7 +47,8 @@ ArticleCard.defaultProps = {
   avatar_src: '15958451-f790-4024-a70e-cc38b82637f2',
   name: 'Prof/researcher',
   title: 'Research Initiative',
-  image_src: '/playground_assets/city-1-1500h.jpg',
+  image_src:
+    '/playground_assets/whatsapp%20image%202021-03-27%20at%2012.45.22%20pm-1500h.jpeg',
   time: 'Published 3 days ago',
   avatar_alt: 'avatar',
   description: 'Description of project',
