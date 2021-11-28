@@ -1,0 +1,198 @@
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.Hero {
+  width: 100%;
+  height: 558px;
+  display: flex;
+  min-height: 75vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("/playground_assets/whatsapp%20image%202021-10-29%20at%209.54.38%20am-1500w.jpeg");
+}
+.FixedHeader {
+  width: 100%;
+  display: flex;
+  z-index: 200;
+  position: fixed;
+  box-shadow: 0px 0px 20px 0px rgba(17, 18, 38, 0.15);
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--dl-color-secondary-300);
+}
+.image {
+  width: 100px;
+  object-fit: cover;
+}
+.text {
+  top: 0px;
+  left: 276px;
+  color: var(--dl-color-gray-white);
+  right: auto;
+  bottom: 0px;
+  margin: auto;
+  z-index: 100;
+  text-align: center;
+}
+.Bg {
+  right: -33px;
+  width: 100%;
+  bottom: -1710px;
+  height: 629px;
+  display: flex;
+  opacity: 0.4;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-black);
+}
+.PostDetails {
+  flex: 0 0 auto;
+  width: 95%;
+  display: flex;
+  position: relative;
+  max-width: 1320px;
+  box-shadow: 0px 10px 15px -10px #626262;
+  margin-top: -100px;
+  padding-left: var(--dl-space-space-tripleunit);
+  border-radius: var(--dl-radius-radius-radius75);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  background-color: var(--dl-color-secondary-300);
+}
+.container1 {
+  top: -2rem;
+  flex: 0 0 auto;
+  left: auto;
+  right: auto;
+  width: 4rem;
+  bottom: auto;
+  height: 4rem;
+  display: flex;
+  position: absolute;
+  align-self: center;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-pimary-500);
+}
+.icon {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+}
+.text01 {
+  color: var(--dl-color-gray-white);
+  align-self: center;
+  margin-top: var(--dl-space-space-tripleunit);
+}
+.text02 {
+  color: #94a3b8ff;
+  align-self: center;
+}
+.text03 {
+  white-space: normal;
+}
+.text04 {
+  white-space: normal;
+}
+.text05 {
+  font-style: italic;
+}
+.text06 {
+  color: var(--dl-color-gray-white);
+  font-size: 1rem;
+  font-style: normal;
+  text-align: center;
+  font-weight: 300;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.text07 {
+  text-align: center;
+}
+.container2 {
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.Posts {
+  display: flex;
+  max-width: 1320px;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+}
+.button {
+  color: #ffffff;
+  width: 321px;
+  align-self: center;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Poppins;
+  text-transform: uppercase;
+  background-color: #2b9a89;
+}
+
+.container3 {
+  width: 66%;
+  display: flex;
+  max-width: 1320px;
+  margin-top: var(--dl-space-space-fiveunits);
+  align-items: center;
+  padding-left: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.text08 {
+  color: var(--dl-color-secondary-400);
+}
+.text09 {
+  font-weight: 700;
+  white-space: normal;
+  background-color: rgb(255, 255, 255);
+}
+.text10 {
+  color: var(--dl-color-secondary-500);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unitandhalf);
+}
+@media(max-width: 991px) {
+  .text {
+    padding-left: var(--dl-space-space-tripleunit);
+    padding-right: var(--dl-space-space-tripleunit);
+  }
+  .container3 {
+    width: 100%;
+    padding-left: var(--dl-space-space-tripleunit);
+    padding-right: var(--dl-space-space-tripleunit);
+  }
+}
+@media(max-width: 767px) {
+  .text02 {
+    text-align: center;
+  }
+  .container3 {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .text02 {
+    text-align: center;
+  }
+  .container2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
