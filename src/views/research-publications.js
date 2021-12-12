@@ -71,9 +71,14 @@ const ResearchPublications = () => {
       </div>
       <div className={styles['container2']}></div>
       <div className={styles['Posts']}>
-        <button className={` ${styles['button']} ${projectStyles['button']} `}>
+        <a
+          href="https://sites.google.com/view/icacontent/home"
+          target="_blank"
+          rel="noreferrer noopener"
+          className={` ${styles['link']} ${projectStyles['button']} `}
+        >
           Click here for Internal Research site
-        </button>
+        </a>
         <div className={styles['container3']}>
           <Label text="STORIES"></Label>
           <h3 className={` ${styles['text08']} ${projectStyles['healine']} `}>

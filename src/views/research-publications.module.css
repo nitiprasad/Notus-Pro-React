@@ -43,9 +43,9 @@
   text-align: center;
 }
 .Bg {
-  right: -33px;
+  top: 77px;
+  left: -2px;
   width: 100%;
-  bottom: -1710px;
   height: 629px;
   display: flex;
   opacity: 0.4;
@@ -134,7 +134,7 @@
   margin-bottom: var(--dl-space-space-tripleunit);
   flex-direction: column;
 }
-.button {
+.link {
   color: #ffffff;
   width: 321px;
   align-self: center;
@@ -142,6 +142,7 @@
   transition: 0.3s;
   font-family: Poppins;
   text-transform: uppercase;
+  text-decoration: none;
   background-color: #2b9a89;
 }
 
